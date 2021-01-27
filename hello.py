@@ -23,7 +23,7 @@ def gen_table():
     engine.say("Please enter the number to generate the table")
     engine.runAndWait()
     
-    num=int(takecommand())
+    num=int(input(""))
     for i in range(1,11):
         table=num*i
         speak(table)
